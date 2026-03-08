@@ -1,58 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Para o Amor da Minha Vida 💖</title>
 
 <style>
+
 body{
-background: linear-gradient(pink, #ffdde1);
-font-family: Arial;
+margin:0;
+padding:0;
+font-family: Arial, sans-serif;
+background: linear-gradient(180deg,#ffd6e7,#ffeef5);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
 text-align:center;
-padding:50px;
+}
+
+.container{
+padding:25px;
+max-width:400px;
 }
 
 h1{
-color:white;
-font-size:40px;
+color:#ff4d88;
+font-size:28px;
 }
 
 p{
-color:white;
-font-size:20px;
+color:#555;
+font-size:18px;
+line-height:1.5;
 }
 
 button{
-background:white;
+background:#ff6fa5;
+color:white;
 border:none;
-padding:15px;
+padding:15px 25px;
 font-size:18px;
-border-radius:20px;
+border-radius:30px;
+margin-top:20px;
 cursor:pointer;
+transition:0.3s;
 }
 
 button:hover{
-background:pink;
+background:#ff4d88;
 }
-</style>
 
+#mensagem{
+margin-top:20px;
+font-size:20px;
+color:#ff4d88;
+font-weight:bold;
+}
+
+</style>
 </head>
 
 <body>
 
+<div class="container">
+
 <h1>💖 Feliz Dia dos Namorados 💖</h1>
 
-<p>Desde o dia que começamos a conversar por causa de um solo de guitarra... minha vida ficou mais bonita.</p>
+<p>
+Tudo começou com um solo de guitarra 🎸  
+e acabou virando a história mais bonita da minha vida.
+</p>
 
-<p>Você é minha música favorita 🎸</p>
+<p>
+Você é minha música favorita todos os dias.
+</p>
 
-<button onclick="mostrarMensagem()">Clique aqui</button>
+<button onclick="mostrarMensagem()">Clique aqui 💌</button>
 
 <p id="mensagem"></p>
 
+</div>
+
 <script>
+
 function mostrarMensagem(){
 document.getElementById("mensagem").innerHTML = "Eu te amo mais a cada dia ❤️";
 }
+
 </script>
 
 </body>
